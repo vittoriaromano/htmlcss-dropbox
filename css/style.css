@@ -35,6 +35,9 @@ body{
     width: 100%;
     padding: 20px;
     justify-content: space-between;
+    /* position: fixed;
+    top: 0;
+    left: 0; */
 }
 
 .nav-lista{
@@ -48,3 +51,50 @@ body{
 
 
 /* main */
+
+main{
+   background-color: #b4d0e7;
+   height: 600px;
+}
+
+.cont-main{
+   padding-top: 40px;
+   width: 80%;
+   margin:0 auto;
+   text-align: left;
+}
+main .cont-main h1{
+    font-size: 4em;
+    line-height: 1em;
+    
+}
+.destra-sinistra{
+    display: flex;
+    position: relative;
+    top: 100px;
+}
+.main-cont-destra{
+    width: 40%;
+}
+.main-cont-sinistra{
+    width: 60%;
+
+}
+.btn-mod{
+    margin: 0 0 15px 0;
+}
+.img{
+    width: 100%;
+}
+
+.main-cont-destra > *{
+    padding-bottom: 15px;
+    line-height: 25px;
+
+}
+
+.entity{
+    font-size: 35px;
+    font-weight: bolder;
+    padding-top: 25px ;
+}
