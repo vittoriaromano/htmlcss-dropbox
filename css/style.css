@@ -229,9 +229,6 @@ padding-bottom: 30px;
 }
 
 .box{
-   
-    border: 1px solid black;
-    
     width: calc(100% / 3); 
 }
 
@@ -250,3 +247,26 @@ padding-bottom: 30px;
     text-decoration-line: underline;
     color: blue;
 }
+
+/* section six */
+
+
+#section-six{
+    height: 100vh;
+    background-color: black;
+    flex-wrap: wrap;
+
+}
+
+
+.colon{
+    width: calc(100% / 3); 
+    background-color: pink;
+    border: 3px solid yellow;
+    height: 60vh;
+}
+.colon-bottom{
+    width: 100%;
+    background-color: aquamarine;
+    height: 40%;
+} 
