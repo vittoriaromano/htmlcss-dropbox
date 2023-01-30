@@ -39,6 +39,9 @@ body{
     line-height: 30px;
 }
 /* typo */
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
 
 /* header */
 .nav{
@@ -212,3 +215,22 @@ padding-bottom: 30px;
     padding: 40px 30px;
 }
 /* fine terza sezione main */
+
+
+#section-four h2{
+    text-align: center;
+}
+
+.cont-box{
+    background-color: black;
+    
+    gap: 10px;
+    flex-wrap: nowrap;
+}
+
+.box{
+    background-color: rgb(255, 211, 211);
+    border: 1px solid black;
+    height: 400px;
+    width: calc(100% / 3); ;
+}
