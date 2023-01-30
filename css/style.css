@@ -27,6 +27,17 @@ body{
     padding: 10px;
     margin-left: 15px;
 }
+.second-btn{
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid black;
+    margin-top: 20px;
+}
+.cont-main-two .tabella .cont-tabella-bottom .check,
+.cont-main-two .tabella-quattro .cont-tabella-bottom,
+.testo-cont {
+    line-height: 30px;
+}
 /* typo */
 
 /* header */
@@ -106,7 +117,6 @@ main .cont-main-one h1{
 .cont-main-two{
    width: 70%;
    margin: 200px auto;
-   height: 800px;
    
 }
 
@@ -166,10 +176,7 @@ padding-bottom: 30px;
     color: blue;
 }
 
-.cont-main-two .tabella .cont-tabella-bottom .check,
-.cont-main-two .tabella-quattro .cont-tabella-bottom {
-    line-height: 30px;
-}
+
 
 .cont-main-two .tabella-quattro .cont-tabella-bottom p{
     padding-top: 40px;
@@ -177,7 +184,8 @@ padding-bottom: 30px;
 }
 
 
-.cont-main-two .tabella-quattro .cont-tabella-bottom h3 {
+.cont-main-two .tabella-quattro .cont-tabella-bottom h3,
+.testo-cont h3{
     font-size: 30px;
     padding-bottom: 10px;
 
@@ -190,3 +198,17 @@ padding-bottom: 30px;
 }
 
 /* fine seconda sezione */
+
+/* terza sezione main */
+
+.imagine{
+    width: 60%;
+}
+.imagine img{
+    width: 100%;
+}
+.testo-cont{
+    width: 40%;
+    padding: 40px 30px;
+}
+/* fine terza sezione main */
