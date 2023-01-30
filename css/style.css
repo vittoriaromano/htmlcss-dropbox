@@ -134,6 +134,7 @@ main .cont-main-one h1{
     display: flex;
     width: 100%;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .tabella{
@@ -145,6 +146,7 @@ main .cont-main-one h1{
 .tabella-quattro{
     width: 100%;
     border:1px solid black ;
+    margin-top: 30px;
 }
 
 .cont-tabella-top{
@@ -249,9 +251,7 @@ main .cont-main-one h1{
 }
 
 /* section six */
-svg{
-    color: white;
-}
+
 
 #section-six{
     height: 100vh;
@@ -269,7 +269,7 @@ svg{
 }
 .colon-bottom{
     width: 100%;
-    background-color: rgb(127, 217, 255);
+    background-color: #b4d0e7;
     height: 40%;
     justify-content: center;
     align-items: center;
@@ -286,26 +286,30 @@ svg{
 }
 
 .colon-cont img{
+    filter: invert(100%);
     width: 70%;
     text-align: center;
     vertical-align: middle;
 }
 
 #logo-one{
-    background-color: rgb(106, 175, 106);
+    background-color:#a2d39b;
     
 }
 
 #logo-two{
-    background-color: rgb(130, 3, 3);
+    background-color:#61082b;
 }
 
 #logo-three{
-    background-color: blue;
+    background-color:#0093ce;
 }
 
 #logo-four{
-    background-color: rgb(255, 0, 0);
+    background-color: #ff1c1c;
+}
+#section-six .center img{
+    width: 60%;
 }
 
 #section-six .center hr{
@@ -314,19 +318,19 @@ svg{
 }
 
 #logo-five{
-    background-color: red;
+    background-color:#d5001f;
 }
 
 #logo-six{
-    background-color: rgb(8, 107, 137);
+    background-color: #b4d0e7;
 }
 
 #logo-seven{
-    background-color: rgb(32, 45, 82);
+    background-color: #0d2481;
 }
 
 #logo-eight{
-    background-color: rgb(230, 190, 28);
+    background-color: #ffd830;
 }
 
 .btn-three{
@@ -338,7 +342,7 @@ svg{
 
 
 .colon-bottom h2{
-    color: red;
+    color: #61082b;
     width: 25%;
     font-size: 40px;
 }
