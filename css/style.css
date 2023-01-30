@@ -283,6 +283,9 @@ main .cont-main-one h1{
 .colon-cont{
     width: 50%;
     height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .colon-cont img{
@@ -308,6 +311,7 @@ main .cont-main-one h1{
 #logo-four{
     background-color: #ff1c1c;
 }
+
 #section-six .center img{
     width: 60%;
 }
@@ -340,12 +344,13 @@ main .cont-main-one h1{
     margin-left: 40px;
 }
 
-
 .colon-bottom h2{
     color: #61082b;
     width: 25%;
     font-size: 40px;
 }
+
+/* section seven */
 
 #section-seven hr{
     margin: 30px 0;
@@ -355,3 +360,9 @@ main .cont-main-one h1{
     margin-left: 80%;
 }
 
+
+footer{
+    background-color: black;
+    color: rgb(13, 12, 12);
+    height: 1000px;
+}
