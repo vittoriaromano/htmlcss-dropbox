@@ -50,12 +50,19 @@ body{
 }
 
 /* header */
+header{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    z-index: 2;
+    background-color: white;
+}
 .nav{
     padding: 20px;
     justify-content: space-between;
-    /* position: fixed;
-    top: 0;
-    left: 0; */
+    
 }
 
 .nav-lista{
@@ -63,7 +70,12 @@ body{
     align-items: center;
     margin-left: 15px;
     font-size: 18px;
-    /* white-space: nowrap; */
+   
+}
+
+.nav .nav-lista li:hover{
+    border-bottom: 2px solid black;
+    
 }
 
 .logo{
@@ -74,11 +86,14 @@ body{
 /* main */
 
 main{
-   background-color: #b4d0e7;
-   height: 600px;
+   padding-top: 80px;
    text-align: left;
 }
+.color{
+    background-color: #b4d0e7;
+    
 
+}
 .cont-main-one{
    padding-top: 40px;
    width: 80%;
@@ -92,7 +107,7 @@ main .cont-main-one h1{
 .destra-sinistra{
     display: flex;
     position: relative;
-    top: 100px;
+    top: 80px;
 }
 .main-cont-destra{
     width: 40%;
@@ -129,6 +144,67 @@ main .cont-main-one h1{
     font-size: 30px;
     padding-bottom: 30px;
 }
+
+/* radio input */
+.cont-radio{
+    display: inline-flex;
+}
+.radio{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.radio-input{
+    display: none; 
+}
+
+.radio-radio{
+    width: 1.25em;
+    height: 1.25em;
+    border: 2px solid rgb(195, 195, 255);
+    border-radius: 50%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 2px;
+}
+
+.radio-radio::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: #0d2481;
+    border-radius: 50%;
+    transform:scale(0) ;
+}
+
+.radio-input:checked + .radio-radio::after {
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .tabelle{
     display: flex;
@@ -280,6 +356,10 @@ main .cont-main-one h1{
     padding: 20px;
 }
 
+.center > *{
+    margin-bottom: 30px;
+}
+
 .colon-cont{
     width: 50%;
     height: 50%;
@@ -290,7 +370,7 @@ main .cont-main-one h1{
 
 .colon-cont img{
     filter: invert(100%);
-    width: 70%;
+    width: 60%;
     text-align: center;
     vertical-align: middle;
 }
@@ -357,12 +437,34 @@ main .cont-main-one h1{
 }
 
 #section-seven .flex i{
-    margin-left: 80%;
+    margin-left: 30%;
 }
 
-
+/* footer */
 footer{
     background-color: black;
-    color: rgb(13, 12, 12);
-    height: 1000px;
+    color: rgb(255, 255, 255);
+    padding: 80px;
+   
+} 
+
+.footer{
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.footer h3{
+    padding-bottom: 30px;
+}
+.footer ul li{
+    line-height: 35px;
+}
+.footer-bottom{
+    padding: 80px 10%;
+}
+
+.footer-bottom > *{
+    margin-right: 10px;
+    vertical-align: middle;
 }
