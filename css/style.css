@@ -188,7 +188,8 @@ padding-bottom: 30px;
 
 
 .cont-main-two .tabella-quattro .cont-tabella-bottom h3,
-.testo-cont h3{
+.testo-cont h3,
+#section-five h3{
     font-size: 30px;
     padding-bottom: 10px;
 
@@ -222,15 +223,30 @@ padding-bottom: 30px;
 }
 
 .cont-box{
-    background-color: black;
     
-    gap: 10px;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+   
 }
 
 .box{
-    background-color: rgb(255, 211, 211);
+   
     border: 1px solid black;
-    height: 400px;
-    width: calc(100% / 3); ;
+    
+    width: calc(100% / 3); 
+}
+
+#section-four .cont-box .box img{
+    width: 100%;
+}
+
+#section-four .cont-box .box p{
+    padding: 20px 0;
+}
+
+
+/* section five */
+
+#section-five a{
+    text-decoration-line: underline;
+    color: blue;
 }
