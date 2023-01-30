@@ -38,6 +38,12 @@ body{
 .testo-cont {
     line-height: 30px;
 }
+
+.cont-main-two{
+    width: 70%;
+    margin: 200px auto;
+    
+ }
 /* typo */
 body{
     font-family: 'Nunito Sans', sans-serif;
@@ -117,17 +123,11 @@ main .cont-main-one h1{
 
 /* second section */
 
-.cont-main-two{
-   width: 70%;
-   margin: 200px auto;
-   
-}
+
 
 .cont-main-two h2{
     font-size: 30px;
-}
-.cont-main-two> *{
-padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 .tabelle{
@@ -249,11 +249,12 @@ padding-bottom: 30px;
 }
 
 /* section six */
-
+svg{
+    color: white;
+}
 
 #section-six{
     height: 100vh;
-    background-color: black;
     flex-wrap: wrap;
 
 }
@@ -261,12 +262,92 @@ padding-bottom: 30px;
 
 .colon{
     width: calc(100% / 3); 
-    background-color: pink;
-    border: 3px solid yellow;
+    background-color: rgb(230, 228, 228);
     height: 60vh;
+    flex-wrap: wrap;
+
 }
 .colon-bottom{
     width: 100%;
-    background-color: aquamarine;
+    background-color: rgb(127, 217, 255);
     height: 40%;
+    justify-content: center;
+    align-items: center;
+    
 } 
+
+.center{
+    padding: 20px;
+}
+
+.colon-cont{
+    width: 50%;
+    height: 50%;
+}
+
+.colon-cont img{
+    width: 70%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#logo-one{
+    background-color: rgb(106, 175, 106);
+    
+}
+
+#logo-two{
+    background-color: rgb(130, 3, 3);
+}
+
+#logo-three{
+    background-color: blue;
+}
+
+#logo-four{
+    background-color: rgb(255, 0, 0);
+}
+
+#section-six .center hr{
+   width: 30%;
+   margin: 40px 0;
+}
+
+#logo-five{
+    background-color: red;
+}
+
+#logo-six{
+    background-color: rgb(8, 107, 137);
+}
+
+#logo-seven{
+    background-color: rgb(32, 45, 82);
+}
+
+#logo-eight{
+    background-color: rgb(230, 190, 28);
+}
+
+.btn-three{
+    border: 0;
+    padding: 10px;
+    height: max-content;
+    margin-left: 40px;
+}
+
+
+.colon-bottom h2{
+    color: red;
+    width: 25%;
+    font-size: 40px;
+}
+
+#section-seven hr{
+    margin: 30px 0;
+}
+
+#section-seven .flex i{
+    margin-left: 80%;
+}
+
