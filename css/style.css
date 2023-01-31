@@ -354,11 +354,7 @@ main .cont-main-one h1{
     filter: invert(100%);
     width: 50%;
 }
-/* .colore-speciale{
-    padding: 5px;
-    background-color: green;
-} */
- 
+
 #logo-one{
     background-color:#c7efc2;
 }
@@ -433,9 +429,12 @@ main .cont-main-one h1{
 }
 .hover{
     display: none;
+    padding-top: 30px;
+    color: gray;
 }
 .hover-box:hover > .hover{
     display: block;
+    width: 100%;
 }
 /* footer */
 footer{
